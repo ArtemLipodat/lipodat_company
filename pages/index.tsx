@@ -1,11 +1,11 @@
-import type { NextPage } from 'next'
-import { Hteg } from '../components/Logo'
+import type { NextPage } from 'next';
+import { Header } from '../components';
 
 
 const Home: NextPage = () => {
   return (
     <div className='container mx-auto px-1'>
-        <header>aaaa</header>
+      <Header/>
     </div>
   )
 }
