@@ -1,16 +1,11 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+import { Hteg } from '../components/Logo'
+
 
 const Home: NextPage = () => {
   return (
-    <div className='wrapper'>
-      <Head>
-        <title>Lipodat|company</title>
-        <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
-      </Head>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className='container mx-auto px-1'>
+        <header>aaaa</header>
     </div>
   )
 }
