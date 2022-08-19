@@ -1,8 +1,9 @@
-import Link from "next/link";
+import { Logo } from "../Logo/Logo";
+
 export const Header = () => {
   return (
       <header>
-        <Link href='/'><a><img src="./logo.svg" alt=""/></a></Link>
+        <Logo/>
       </header>
   );
 }
