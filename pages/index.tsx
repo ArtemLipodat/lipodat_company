@@ -1,12 +1,10 @@
 import type { NextPage } from 'next';
-import { Header } from '../components';
+import {withLayout} from "../layout/Layout";
 
 
 const Home: NextPage = () => {
   return (
-    <div className='container mx-auto px-1'>
-      <Header/>
-    </div>
+      <main>main</main>
   )
 }
-export default Home
+export default withLayout(Home);
