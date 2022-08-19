@@ -4,7 +4,7 @@ import {withLayout} from "../layout/Layout";
 
 const Home: NextPage = () => {
   return (
-      <main>main</main>
+      <main className='font-bold'>main</main>
   )
 }
 export default withLayout(Home);
